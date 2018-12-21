@@ -1,16 +1,19 @@
-html lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Quiz Board</title>
-  <script src="example.js"></script>
+      <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/index.css" rel="stylesheet" type="text/css">
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
 </head>
 <body>
 <div class="container">
     <h1>Quiz Board</h1>
     <div id="blanks">
-        <form>
+        <form name="myform"method="post" onsubmit="return mytest()"> 
           <div class="form-group">
                 <label>1.what is the othername of Javascript?</label><br>
                 <input type="radio" name="question1" value="ECMAScript">ECMAScript<br>
@@ -18,11 +21,11 @@ html lang="en">
                 <input type="radio" name="question1" value="I don't know">I don't know<br>
           </div>
           <div class="form-group">
-                <label>2.HTML tag <pre> helps in preserving?</label><br>
-                <input type="radio" name="question2" value="Spaces">Spaces<br>
-                <input type="radio" name="question2" value="Line Breaks">Line Breaks<br>
-                <input type="radio" name="question2" value="Listing">Listing<br>
-                <input type="radio" name="question2" value="Both A and B">Both A and B<br>
+                <label>2.String method of JavaScript not capable of taking a second start position argument is said to be?</label><br>
+                <input type="radio" name="question2" value="search()">search()<br>
+                <input type="radio" name="question2" value="indexOf()">indexOf()<br>
+                <input type="radio" name="question2" value="pointerOf()">pointerOf()<br>
+                <input type="radio" name="question2" value="currentOf()">currentOf()<br>
           </div>
           <div class="form-group">
                 <label>3.Application's data before HTML5 had to be stored in?</label><br>

@@ -10,7 +10,7 @@ if(q1=="js")
 {
     marks=marks+20;
     }
-if(q2=="Both A and B")
+if(q2=="search()")
 {
     marks=marks+20;
     }
