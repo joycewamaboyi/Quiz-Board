@@ -18,4 +18,8 @@ if(q3=="Cookies")
 {
     marks=marks+20;
 }
+if(q4=="Camelcase")
+{
+    marks=marks+20;   
+}
 
