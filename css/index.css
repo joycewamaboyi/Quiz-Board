@@ -30,7 +30,7 @@ button{
   
 padding: 15px 32px;
 margin: 4px 2px;
-cursor: pointer;
+
 }
 p{
     font-family: 'Arial Narrow',Arial, Helvetica, sans-serif;
@@ -44,3 +44,22 @@ p{
 h2{
     text-decoration-line: underline;
 }
+.submitter {
+    
+    cursor: pointer;
+    text-decoration: none;
+  box-shadow: red;
+  background-color: #c30b0a;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:40px;
+  width:95px;
+  border-radius:5px;
+ }
+
+
+
+  
+    
