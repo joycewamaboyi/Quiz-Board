@@ -22,4 +22,10 @@ if(q4=="Camelcase")
 {
     marks=marks+20;   
 }
+if(q5=="Coding")
+{
+    marks=marks+20;   
+}
+}
+
 
