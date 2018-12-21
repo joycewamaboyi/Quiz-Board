@@ -26,6 +26,7 @@ if(q5=="Coding")
 {
     marks=marks+20;   
 }
+alert("your score is:"+marks);
 }
 
 
