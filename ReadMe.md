@@ -14,7 +14,7 @@ Moringa School
 you must have Javascript, VS code ,and Browser
 ...
 ## link to live site on GitHub Pages
-
+https://github.com/joycewamaboyi/Quiz-Board
 ## Contact information
 ### tuyjoy92@yahoo.fr
 ### +250789494422
