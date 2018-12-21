@@ -26,6 +26,21 @@ h1{
     text-align: center;
     font-style: italic;
 }
-.two{
-    font-size: 15px;
+button{
+  
+padding: 15px 32px;
+margin: 4px 2px;
+cursor: pointer;
+}
+p{
+    font-family: 'Arial Narrow',Arial, Helvetica, sans-serif;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    text-transform: none;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    text-decoration-line: underline;
 }
