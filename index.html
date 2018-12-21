@@ -10,46 +10,65 @@
       <script src="script.js"></script>
 </head>
 <body>
+    <main>
 <div class="container">
     <h1>Quiz Board</h1>
+    <h2>Instruction</h2>
+    <ul>
+        <li>every question has 20 marks</li>
+        <li>Read very well the question</li>
+        <li>select the best answer </li>
+        <li>answer all questions</li>
+
+    </ul>
     <div id="blanks">
         <form name="myform" method="post" onsubmit="return mytest()"> 
           <div class="form-group">
-                <label>1.what is the othername of Javascript?</label><br>
+                <p>1.what is the othername of Javascript?<br>
                 <input type="radio" name="question1" value="ECMAScript">ECMAScript<br>
                 <input type="radio" name="question1" value="js">js<br>
                 <input type="radio" name="question1" value="I don't know">I don't know<br>
+                </p>
           </div>
           <div class="form-group">
-                <label>2.String method of JavaScript not capable of taking a second start position argument is said to be?</label><br>
+                <p>2.String method of JavaScript not capable of taking a second start position argument is said to be?<br>
                 <input type="radio" name="question2" value="search()">search()<br>
                 <input type="radio" name="question2" value="indexOf()">indexOf()<br>
                 <input type="radio" name="question2" value="pointerOf()">pointerOf()<br>
                 <input type="radio" name="question2" value="currentOf()">currentOf()<br>
+                </p>
           </div>
           <div class="form-group">
-                <label>3.Application's data before HTML5 had to be stored in?</label><br>
+                <p>3.Application's data before HTML5 had to be stored in?<br>
                 <input type="radio" name="question3" value="Local database">Loal database<br>
                 <input type="radio" name="question3" value="Web server">Web server<br>
                 <input type="radio" name="question3" value="External database">External database<br>
                 <input type="radio" name="question3" value="Cookies">Cookies<br>
+                </p>
           </div>
           <div class="form-group">
-                <label>4.For best practice while identifying variables, use?</label><br>
+                <p>4.For best practice while identifying variables, use?<br>
                 <input type="radio" name="question4" value="Capital case">Capital case<br>
                 <input type="radio" name="question4" value="Lower case">Lower case<br>
                 <input type="radio" name="question4" value="Camelcase">Camelcase<br>
                 <input type="radio" name="question4" value="ProperCase">ProperCase<br>
+                </p>
              </div>
           <div class="form-group">
-                <label>5.In HTML, output is not changed by adding?</label><br>
+                <p>5.In HTML, output is not changed by adding?<br>
                 <input type="radio" name="question4" value="Capital case">Capital case<br>
                 <input type="radio" name="question5" value="Body">Body<br>
                 <input type="radio" name="question5" value="Tags">Tags<br>
                 <input type="radio" name="question5" value="Empty spaces">Empty spaces<br>
                 <input type="radio" name="question5" value="Coding">Coding<br>
+                </p>
            </div>
-                 <input type="submit" name="submit" value="submit">
+                <input type="submit" name="submit" value="submit">
+        </main>
+               <footer>all the Best!</footer>
+                 
+                
+
     </form>
     </body>
     </html>
