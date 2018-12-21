@@ -28,7 +28,7 @@ $(document).ready(function (){
            marks=marks+20;
         }
         $(".output").show();
-        $("#display").text("Your score is: " + result);
+        $("#display").text("Your score is: " + marks);
   
  event.preventDefault();
         
