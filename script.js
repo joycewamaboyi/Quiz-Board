@@ -10,7 +10,12 @@ if(q1=="js")
 {
     marks=marks+20;
     }
-    if(q2=="no")
-    {
-        marks=marks+20;
+if(q2=="Both A and B")
+{
+    marks=marks+20;
     }
+if(q3=="Cookies")
+{
+    marks=marks+20;
+}
+
